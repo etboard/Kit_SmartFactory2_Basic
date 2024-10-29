@@ -34,8 +34,6 @@ button_push = Pin(D7)                                    # 톱니바퀴 작동 �
 echo_pin = Pin(D8)                                       # 초음파 수신 핀: D8
 trig_pin = Pin(D9)                                       # 초음파 송신 핀: D9
 
-pump_state = 0                                           # 워터 펌프 상태: 멈춤
-
 servo_block = Servo(Pin(D4))                             # 서보모터(차단대) 핀 : D4
 servo_geer = Servo(Pin(D5))                              # 서보모터(차단대) 핀 : D5
 
